@@ -8,6 +8,16 @@ Is a work in progress.
 
 ```
 
+TODO:
+
+* Add a mode to define schema
+* Add code to facilitate mongo->Sqlite migration.
+* Add code that will fall back on dict function in case schema is improperly define.
+  * How does key-> value work when someone wants to use a schema, but cannot define it well?
+    A: You have to enforce a primary key, and it maps to primary key-> object.
+  (
+
+
 =================================================================
 sqlitedict -- persistent ``dict``, backed-up by SQLite and pickle
 =================================================================
