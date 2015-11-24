@@ -1,4 +1,4 @@
-'''
+```
 Forked from piskvorky to add my custom code to help support a mongo->sqlite conversion.
 
 Those python users who'd rather use Sqlite (and are migrating from MongoDB), and have the ease of 
@@ -6,9 +6,7 @@ python dicts, but with the universality of an sqlite file.
 
 Is a work in progress.
 
-
-'''
-
+```
 
 =================================================================
 sqlitedict -- persistent ``dict``, backed-up by SQLite and pickle
