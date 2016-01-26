@@ -102,7 +102,7 @@ def encode(obj):
 
 def decode(obj):
     """Deserialize objects retrieved from SQLite."""
-    return loads(bytes(obj))
+    return loads(bytes(obj), encoding = 'bytes')
 
 
 class SqliteDict(DictClass):
